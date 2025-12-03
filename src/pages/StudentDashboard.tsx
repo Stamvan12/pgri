@@ -75,7 +75,7 @@ const StudentDashboard = () => {
                 setScanResult(decodedText);
                 scanner.clear();
               }, 
-              (error: any) => {
+              (_error: any) => {
                 // console.warn(error);
               }
             );
